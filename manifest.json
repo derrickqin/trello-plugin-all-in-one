@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "True age for Trello card",
+  "version": "1.0.0",
+  "description": "Show how long the card has been in the Trello list",
+  "author" : "Derrick Qin",
+  "permissions": [
+    "tabs",
+    "https://trello.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
