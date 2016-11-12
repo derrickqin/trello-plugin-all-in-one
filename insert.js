@@ -14,7 +14,7 @@ for (index = 0; index < cards.length; index++) {
           var idList = json["idList"];
           var actions = json["actions"];
           var date = json.actions.filter(function (action) {
-            return action.type === 'createCard' || (action.data.listAfter && action.data.listAfter.id === idList)
+            return action.type === 'createCard' || action.type === 'copyCard' || (action.data.listAfter && action.data.listAfter.id === idList)
           }).shift().date;
           var div = document.createElement("div");
           div.innerHTML = '<span class="trello-card-aging" style="color:purple;">' + moment(date).fromNow() + '</span>';
