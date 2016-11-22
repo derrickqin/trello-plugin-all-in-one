@@ -9,7 +9,7 @@ Truello can tell you how long the card has been in the list. No excuse any more!
 
 ## Know issues:
 
-1. Card age label is shown three times when switching boards
+1. Card age label does not show when switching boards
 2. Card age label disappears when moving cards to another list
 
 Just refresh the page, it will work as expected.
