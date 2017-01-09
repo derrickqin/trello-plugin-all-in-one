@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
   addAging();
 });
 
@@ -26,7 +26,8 @@ function addAging() {
             }).shift().date;
             var div = document.createElement("div");
             div.innerHTML = '<span class="trello-card-aging" style="color:purple;">' + moment(date).fromNow() + '</span>';
-            cards[index].insertBefore(div, cards[index].childNodes[2]);
+            jsBadgeEle = cards[index].getElementsByClassName('badges')[0];
+            jsBadgeEle.insertBefore(div, jsBadgeEle.firstChild);
           }
         };
         var cardHref = cards[index].getElementsByClassName("js-card-name")[0].getAttribute('href');
