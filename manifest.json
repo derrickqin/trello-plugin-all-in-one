@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Trello plugin all-in-one: Card age, number, count and lable name",
+  "name": "Trello plugin all-in-one",
   "short_name": "Truello",
   "version": "1.0.0",
-  "description": "Tired of too many Chrome extensions for Trello? Add the missing Trello features in ONE Chrome extension",
+  "description": "Tired of having too many extensions for Trello? Add missing features in ONE Chrome extension: Card age, number, count and lable name",
   "author" : "Derrick Qin",
   "permissions": [
     "tabs",
