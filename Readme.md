@@ -1,6 +1,6 @@
 # Trello plugin all-in-one Chrome extension
 
-Tired of having too many Chrome extensions for Trello? Add the missing Trello features in ONE Chrome extension
+Tired of having too many Chrome extensions for Trello? You can add Trello missing features in ONE Chrome extension, such as card age, number, count and label name.
 
 ![Before](/Before.png)
 ![After](/After.png)
