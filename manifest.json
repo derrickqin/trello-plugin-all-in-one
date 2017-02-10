@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "True age for Trello card",
+  "name": "Trello plugin all-in-one: Card age, number, count and lable name",
   "short_name": "Truello",
-  "version": "1.1.1",
-  "description": "Show how long the card has been in the Trello list",
+  "version": "1.0.0",
+  "description": "Tired of too many Chrome extensions for Trello? Add the missing Trello features in ONE Chrome extension",
   "author" : "Derrick Qin",
   "permissions": [
     "tabs",
@@ -12,5 +12,10 @@
   "content_scripts": [ {
     "js": [ "thirdPartyLib/moment.js", "truello.js" ],
     "matches": [ "https://trello.com/*" ]
-  } ]
+  } ],
+  "background":{
+    "scripts": [
+      "background.js"
+    ]
+  }
 }
