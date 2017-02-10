@@ -3,7 +3,6 @@
 Tired of having too many Chrome extensions for Trello? Add the missing Trello features in ONE Chrome extension
 
 ![Before](/Before.png)
-
 ![After](/After.png)
 
 ## Features
