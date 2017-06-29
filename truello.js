@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
 function addAging() {
 
 
-  var cards = document.getElementsByClassName("list-card-details");
+  var cards = document.querySelectorAll(".list-card, .ui-droppable");
 
   for (index = 0; index < cards.length; index++) {
     (function (index) {
@@ -30,7 +30,7 @@ function addAging() {
             jsBadgeEle.insertBefore(div, jsBadgeEle.firstChild);
           }
         };
-        var cardHref = cards[index].getElementsByClassName("js-card-name")[0].getAttribute('href');
+        var cardHref = cards[index].getAttribute('href');
         xhr.open("GET", 'https://' + document.domain + cardHref + '.json');
         xhr.send();
       }
