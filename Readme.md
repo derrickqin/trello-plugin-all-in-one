@@ -5,6 +5,11 @@ Tired of having too many Chrome extensions for Trello? You can add Trello missin
 ![Before](/Before.png)
 ![After](/After.png)
 
+***NEW:*** Now support options to disable features excluding aging
+
+![options](/options.png)
+
+
 ## Features
 
 ### True age for the Trello card
