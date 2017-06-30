@@ -10,17 +10,3 @@ If label has no name, it will show a narrow color bar
   width: auto!important;
   line-height:1.2rem!important
 }
-/*
-card number
-*/
-.card-short-id {
-  display: inline-block!important;
-  font-weight: bold;
-  padding-right: 5px;
-}
-/*
-card count
-*/
-.list-header-num-cards {
-  display: inline-block!important;
-}

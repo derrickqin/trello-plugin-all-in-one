@@ -2,12 +2,13 @@
   "manifest_version": 2,
   "name": "Trello plugin all-in-one",
   "short_name": "Truello",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Tired of having too many extensions for Trello? Add missing features in ONE Chrome extension: Card age, number, count and lable name",
   "author" : "Derrick Qin",
   "permissions": [
     "tabs",
-    "https://trello.com/*"
+    "https://trello.com/*",
+    "storage"
   ],
   "content_scripts": [ {
     "js": [ "thirdPartyLib/moment.js", "truello.js" ],
@@ -17,5 +18,9 @@
     "scripts": [
       "background.js"
     ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
   }
 }
