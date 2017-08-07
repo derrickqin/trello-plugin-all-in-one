@@ -10,3 +10,11 @@ If label has no name, it will show a narrow color bar
   width: auto!important;
   line-height:1.2rem!important
 }
+
+/*
+Show full label name after the trello release around 2017/08/07
+*/
+.card-label.mod-card-front {
+  max-width: 100px!important;
+  min-width: 0px!important;
+}
