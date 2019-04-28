@@ -1,6 +1,13 @@
 # Trello plugin all-in-one Chrome extension
 
-Tired of having too many Chrome extensions for Trello? You can add Trello missing features in ONE Chrome extension, such as card age, number, count and label name.
+You can install it in Chrome Store [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
+
+Add Trello missing features in ONE Chrome extension:
+- show card age
+- show card number
+- show card label name
+- show card count in each column
+- show true age for each card (the time that each card has been in the column)
 
 ![Before](/Before.png)
 ![After](/After.png)
