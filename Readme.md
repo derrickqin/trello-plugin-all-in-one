@@ -1,5 +1,8 @@
 # Trello plugin all-in-one Chrome extension
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/d/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&logo=google-chrome&logoColor=white)
+
 You can install it in Chrome Store [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
 
 Add Trello missing features in ONE Chrome extension:
