@@ -57,3 +57,4 @@ Just refresh the page, it will work as expected.
 ## Contributors
 Author: [@derrickqin](https://github.com/derrickqin)
 
+## Copyright and License
