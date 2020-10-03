@@ -1,24 +1,21 @@
-# Trello plugin all-in-one Chrome extension
+# Trello plugin all-in-one
+> You all-in-one [Trello](https://trello.com/) board plugin
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/d/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&logo=google-chrome&logoColor=white)
 
-You can install it in Chrome Store [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
+## Supported Browser
+Get it from Chrome Store! [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
 
-Add Trello missing features in ONE Chrome extension:
+## Background
+Trello boards are really useful for lots of purposes. However, there are lots of features that it could have provided such as
 - show card age
 - show card number
 - show card label name
 - show card count in each column
 - show true age for each card (the time that each card has been in the column)
 
-![Before](/Before.png)
-![After](/After.png)
-
-***NEW:*** Now support options to disable features excluding aging
-
-![options](/options.png)
-
+People started to build lots of small extensions to power up their Trello boards. Then one day, I found that half of my Chrome extentions were Trello-related. I started to think about if I could create an all-in-one plugin which could fulfill all my purposes.
 
 ## Features
 
@@ -39,9 +36,24 @@ Display the card count at top of the columns.
 
 Display the label names and still keep the color of them.
 
-## Know issues:
+## Screenshots
+Same Trello board before and after installing this extension
+
+![Before](/Before.png)
+![After](/After.png)
+
+As per requests by a few users, options to disable features excluding aging were added.
+
+![options](/options.png)
+
+
+## Know issues and fix:
 
 1. Card age label does not show when switching boards.
 2. Card age label disappears when moving cards to another list.
 
 Just refresh the page, it will work as expected.
+
+## Contributors
+Author: [@derrickqin](https://github.com/derrickqin)
+
