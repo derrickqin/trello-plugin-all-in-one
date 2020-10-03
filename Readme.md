@@ -58,3 +58,6 @@ Just refresh the page, it will work as expected.
 Author: [@derrickqin](https://github.com/derrickqin)
 
 ## Copyright and License
+❗️ This extension is not sponsored by, endorsed by, or an official project of GitHub. This is a personal project and is developed solely for providing additional functionalities on GitHub website.
+
+> [MIT license](https://opensource.org/licenses/MIT) (MIT)
