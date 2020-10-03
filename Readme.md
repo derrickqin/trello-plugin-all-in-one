@@ -46,6 +46,16 @@ As per requests by a few users, options to disable features excluding aging were
 
 ![options](/options.png)
 
+## Library used
+Huge thanks to [moment.js](https://github.com/moment/moment), dealing with time is so easy with it.
+
+## Development
+1. Git Clone this repo
+2. Go to extension page. For chrome extensions chrome://extensions
+3. Enable developer mode
+4. Click on load unpacked extension and select the folder created by Git Clone
+
+PRs are welcome :)
 
 ## Know issues and fix:
 
