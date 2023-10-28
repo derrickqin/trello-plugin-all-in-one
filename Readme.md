@@ -1,5 +1,5 @@
 # Trello plugin all-in-one
-> You all-in-one [Trello](https://trello.com/) board plugin
+> Your all-in-one [Trello](https://trello.com/) board plugin
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/d/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&logo=google-chrome&logoColor=white)
@@ -8,14 +8,13 @@
 Get it from Chrome Store! [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
 
 ## Background
-Trello boards are really useful for lots of purposes. However, there are lots of features that it could have provided such as
-- show card age
-- show card number
-- show card label name
-- show card count in each column
-- show true age for each card (the time that each card has been in the column)
+Trello boards are really useful for lots of purposes. However, there are lots of missing features that users ask for, such as
+- card number
+- card label name
+- total number of cards in each column
+- true car age (the time that each card has been moved to a column)
 
-People started to build lots of small extensions to power up their Trello boards. Then one day, I found that half of my Chrome extentions were Trello-related. I started to think about if I could create an all-in-one plugin which could fulfill all my purposes.
+People started to build lots of small extensions to power up their Trello boards. Then one day, I found that half of my Chrome extensions were Trello-related. I started to think about if I should create an all-in-one plugin which could fulfill all my purposes.
 
 ## Features
 
@@ -30,7 +29,7 @@ Display the missing Trello card number.
 
 ### Card count for each column
 
-Display the card count at top of the columns.
+Display the total number of cards in each column.
 
 ### Label name
 
