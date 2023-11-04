@@ -5,7 +5,6 @@
   "version": "2.0.0",
   "description": "Tired of having too many extensions for Trello? Add missing features in ONE Chrome extension: Card age, number, count and lable name",
   "author" : "Derrick Qin",
-  "host_permissions": ["https://trello.com/*"],
   "permissions": [
     "tabs",
     "storage",
