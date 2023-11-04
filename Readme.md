@@ -4,6 +4,10 @@
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/d/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pnfioopglhebphfgkagefdmajgibahkk.svg?style=for-the-badge&logo=google-chrome&logoColor=white)
 
+## Update after the Trello release around 2023/10/20
+There was a release of Trello website on 20 Oct 2023, which removed hidden card number and the total number of each list/column. I had to re-implement these features.
+It took me some time because Chrome Web Store no longer accepts Manifest V2 extensions. I had to migrate it to Manifest V3.
+
 ## Supported Browser
 Get it from Chrome Store! [Trello plugin all-in-one](https://chrome.google.com/webstore/detail/trello-plugin-all-in-one/pnfioopglhebphfgkagefdmajgibahkk?hl=en)
 
@@ -11,7 +15,7 @@ Get it from Chrome Store! [Trello plugin all-in-one](https://chrome.google.com/w
 Trello boards are really useful for lots of purposes. However, there are lots of missing features that users ask for, such as
 - card number
 - card label name
-- total number of cards in each column
+- total number of cards in each list/column
 - true car age (the time that each card has been moved to a column)
 
 People started to build lots of small extensions to power up their Trello boards. Then one day, I found that half of my Chrome extensions were Trello-related. I started to think about if I should create an all-in-one plugin which could fulfill all my purposes.
@@ -67,6 +71,6 @@ Just refresh the page, it will work as expected.
 Author: [@derrickqin](https://github.com/derrickqin)
 
 ## Copyright and License
-❗️ This extension is not sponsored by, endorsed by, or an official project of GitHub. This is a personal project and is developed solely for providing additional functionalities on GitHub website.
+❗️ Trello is a product of Atlassian Corporation. This extension is not sponsored by, endorsed by, or an official project of Trello. This is a personal project and is developed solely for providing additional functionalities on Trello website.
 
 > [MIT license](https://opensource.org/licenses/MIT) (MIT)

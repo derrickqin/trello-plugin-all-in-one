@@ -1,14 +1,16 @@
 function save_options() {
-  var columnCount = document.getElementById('columnCount').checked;
-  var cardId = document.getElementById('cardId').checked;
-  var labelName = document.getElementById('labelName').checked;
+  let cardAge = document.getElementById('cardAge').checked;
+  let cardCountInList = document.getElementById('cardCountInList').checked;
+  let cardId = document.getElementById('cardId').checked;
+  let labelName = document.getElementById('labelName').checked;
 
   chrome.storage.sync.set({
-    columnCount: columnCount,
+    cardAge: cardAge,
+    cardCountInList: cardCountInList,
     cardId: cardId,
     labelName: labelName
   }, function() {
-    var status = document.getElementById('status');
+    let status = document.getElementById('status');
     status.textContent = 'Options saved.';
     setTimeout(function() {
       status.textContent = '';
@@ -18,11 +20,13 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.sync.get({
-    columnCount: false,
+    cardAge: false,
+    cardCountInList: false,
     cardId: false,
     labelName: false
   }, function(items) {
-    document.getElementById('columnCount').checked = items.columnCount;
+    document.getElementById('cardAge').checked = items.cardAge;
+    document.getElementById('cardCountInList').checked = items.cardCountInList;
     document.getElementById('cardId').checked = items.cardId;
     document.getElementById('labelName').checked = items.labelName;
   });
